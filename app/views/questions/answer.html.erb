@@ -1,0 +1,8 @@
+<!-- app/views/coach/answer.html.erb -->
+<h1>Your Question:</h1>
+<p class="your-question"><%= params[:question] %></p>
+
+<h1>Coach's Answer:</h1>
+<p class="coach-answer"><%= @answer %></p>
+
+<%= link_to "Ask Another Question", ask_path %>
